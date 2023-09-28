@@ -3,8 +3,12 @@ import threading
 import zipfile
 import traceback
 
-FOLDER = r"C:\Users\lenovo\Desktop\SharedFolder\Client"
-IP = "85.114.112.78"
+# change the folder path and ip address below
+FOLDER = r"path\to\client\folder"
+IP = "85.114.112.78" # ip of the server
+
+# you can you some port forwarding technique
+# or a domain to access your server globally
 
 def extract_zip(zip_filename, extract_dir):
     with zipfile.ZipFile(zip_filename, 'r') as zipf:
