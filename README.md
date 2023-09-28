@@ -24,7 +24,7 @@ On the machine you intend to use as the client, run the client code. Ensure that
 
 ### 5. Synchronize Folders
 
-Once the server and client are both running, SharedFolder will automatically synchronize the specified folders between them. Any changes made in one folder will be mirrored in the other.
+Once the server and client are both running, SharedFolder will automatically synchronize the specified folders between them. Any changes made in the server's folder will be mirrored in the clients' folders as long as the both of them are running.
 
 ## Contributing
 
@@ -33,10 +33,4 @@ If you'd like to contribute to this project, feel free to open issues or submit 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-Special thanks to [Author Name] for the inspiration and guidance on this project.
-
-Happy sharing!
 
