@@ -2,7 +2,8 @@ from socket import *
 import threading, os
 import zipfile, time
 
-FOLDER = r"C:\Users\lenovo\Desktop\SharedFolder\Server"
+# Change the folder path below
+FOLDER = r"path\to\folder"
 
 def delete_file(file_path):
     try:
